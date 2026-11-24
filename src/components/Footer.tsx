@@ -6,8 +6,8 @@ export default function Footer() {
     <footer className="bg-marine text-white/80">
       <div className="container-tp flex flex-col gap-4 py-12 text-sm sm:flex-row sm:items-start sm:justify-between">
         <div>
-          <p className="font-semibold text-white">{SITE.name}</p>
-          <p className="mt-2">{SITE.address}</p>
+          <p className={"font-semibold text-white"}>{SITE.name}</p>
+          <p className={"mt-2"}>{SITE.address}</p>
           <a href={`mailto:${SITE.email}`} className="mt-2 block">
             {SITE.email}
           </a>
