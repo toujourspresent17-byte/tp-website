@@ -4,7 +4,7 @@ export const SITE = {
   phone: process.env.NEXT_PUBLIC_PHONE || "+33783476570",
   phoneDisplay: process.env.NEXT_PUBLIC_PHONE_DISPLAY || "+33 7 83 47 65 70",
   email: "contact@toujourspresent.com",
-  address: "Port des Minimes, La Rochelle",
+  address: "Nouvelle-Aquitaine",
   tagline: "Un interlocuteur unique. Un travail dont on répond.",
   whatsapp: "33783476570",
 };
