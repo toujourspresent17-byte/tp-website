@@ -8,13 +8,13 @@ Les syndics et gestionnaires de copropriété ne cherchent pas une plaquette gé
 
 ## Ce qui compte sur le terrain
 
-- Fréquence adaptée au trafic (pas un forfait figé)
+- Fréquence adaptée au trafic
 - Un seul nom au téléphone
 - Photos après intervention si demandé
-- Devis par site, pas une grille open-space
+- Devis par site
 
-## Comment on travaille
+## Zone
 
-Toujours Présent intervient en Nouvelle-Aquitaine (La Rochelle / 17 en priorité) sur les parties communes et le tertiaire. Audit court, proposition écrite, démarrage possible sur période d’essai.
+Toujours Présent intervient en **Nouvelle-Aquitaine**, sans distinction de ville.
 
 [Demander un audit](/contact)

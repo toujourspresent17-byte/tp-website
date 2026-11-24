@@ -3,7 +3,7 @@ import { getAllPosts } from "@/lib/posts";
 
 export const metadata = {
   title: "Blog — Toujours Présent",
-  description: "Parties communes, sous-traitance propreté, Nouvelle-Aquitaine.",
+  description: "Parties communes, sous-traitance propreté — Nouvelle-Aquitaine.",
 };
 
 export default function BlogPage() {
@@ -11,7 +11,7 @@ export default function BlogPage() {
   return (
     <section className="container-tp py-16">
       <h1 className="text-3xl font-semibold text-marine">Blog</h1>
-      <p className="mt-2 max-w-xl text-mute">Notes terrain pour syndics, gestionnaires et partenaires propreté.</p>
+      <p className="mt-2 max-w-xl text-mute">Notes terrain pour syndics, gestionnaires et partenaires propreté en Nouvelle-Aquitaine.</p>
       <ul className="mt-10 space-y-6">
         {posts.map((p) => (
           <li key={p.slug} className="rounded-2xl border border-black/5 bg-white p-6 shadow-sm">
@@ -26,7 +26,6 @@ export default function BlogPage() {
           </li>
         ))}
       </ul>
-      {posts.length === 0 ? <p className="mt-8 text-mute">Aucun article pour le moment.</p> : null}
     </section>
   );
 }

@@ -21,9 +21,7 @@ function parseFrontmatter(raw: string): { meta: Record<string, string>; body: st
   for (const line of block.split("\n")) {
     const i = line.indexOf(":");
     if (i === -1) continue;
-    const key = line.slice(0, i).trim();
-    const val = line.slice(i + 1).trim().replace(/^["']|["']$/g, "");
-    meta[key] = val;
+    meta[line.slice(0, i).trim()] = line.slice(i + 1).trim().replace(/^["']|["']$/g, "");
   }
   return { meta, body };
 }
