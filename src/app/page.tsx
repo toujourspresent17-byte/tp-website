@@ -10,7 +10,7 @@ export default function HomePage() {
           Un contrat.<br />Un interlocuteur.<br />Un passage prouvé.
         </h1>
         <p className="mt-6 max-w-xl text-base font-light text-white/70">
-          Halls, bureaux, pont. Photos après chaque passage. Intervention en Nouvelle-Aquitaine.
+          Halls, bureaux, pont. Photos après chaque passage. France entière — attache La Rochelle.
         </p>
         <div className="mt-10 flex flex-wrap gap-3">
           <Link href="/contact" className="rounded-full bg-white px-7 py-3 text-sm font-medium text-black hover:bg-white/90">
