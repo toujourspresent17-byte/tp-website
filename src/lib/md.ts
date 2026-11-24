@@ -18,12 +18,10 @@ export function mdToHtml(md: string): string {
       out.push(`<h2 class="mt-10 text-xl font-semibold text-marine">${inline(line.slice(3))}</h2>`);
     } else if (line.startsWith("- ")) {
       flush();
-      if (!out.length || !out[out.length - 1].includes("<ul")) out.push('<ul class="mt-4 list-disc space-y-2 pl-5 text-mute">');
+      if (!out.length || !out[out.length - 1].includes("<ul")) {
+        out.push('<ul class="mt-4 list-disc space-y-2 pl-5 text-mute">');
+      }
       out.push(`<li>${inline(line.slice(2))}</li>`);
-    } else if (/^\d+\.\s/.test(line)) {
-      flush();
-      if (!out.length || !out[out.length - 1].includes("<ol")) out.push('<ol class="mt-4 list-decimal space-y-2 pl-5 text-mute">');
-      out.push(`<li>${inline(line.replace(/^\d+\.\s/, ""))}</li>`);
     } else if (!line.trim()) {
       flush();
     } else {

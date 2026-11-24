@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="container-tp py-12 text-sm">
         <p className={"font-semibold text-white"}>{SITE.name}</p>
         <p className={"mt-2"}>{SITE.address}</p>
-        <a href={`mailto:${SITE.email}`} className="mt-2 block">{SITE.email}</a>
+        <a href={`mailto:${SITE.email}`} className={"mt-2 block"}>{SITE.email}</a>
         <p className="mt-4">
           <Link href="/blog" className="hover:text-white">Blog</Link>
           {" · "}

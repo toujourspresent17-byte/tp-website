@@ -10,7 +10,7 @@ export default function Header() {
         <nav className="hidden items-center gap-6 text-sm md:flex">
           <Link href="/blog" className="text-mute hover:text-marine">Blog</Link>
           <Link href="/contact" className="text-mute hover:text-marine">Contact</Link>
-          <a href={`tel:${SITE.phone}`} className="text-teal">{SITE.phoneDisplay}</a>
+          <a href={`tel:${SITE.phone}`} className={"text-teal"}>{SITE.phoneDisplay}</a>
         </nav>
       </div>
     </header>

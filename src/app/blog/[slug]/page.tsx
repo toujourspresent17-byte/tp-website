@@ -20,17 +20,13 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
   return (
     <article className="container-tp max-w-3xl py-16">
       <Link href="/blog" className="text-sm text-teal">
-        ← Blog
+        Blog
       </Link>
       <p className={"mt-6 text-xs text-mute"}>{post.date}</p>
       <h1 className={"mt-2 text-3xl font-semibold text-marine"}>{post.title}</h1>
       <div className="mt-8" dangerouslySetInnerHTML={{ __html: html }} />
-      <div className="mt-12 rounded-2xl bg-marine px-6 py-8 text-white">
-        <p className="font-medium">Un audit ou une mission en Nouvelle-Aquitaine ?</p>
-        <Link
-          href="/contact"
-          className="mt-4 inline-block rounded-full bg-white px-5 py-2 text-sm font-medium text-marine"
-        >
+      <div className="mt-12">
+        <Link href="/contact" className="rounded-full bg-marine px-5 py-2 text-sm text-white">
           Contact
         </Link>
       </div>
